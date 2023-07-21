@@ -1,8 +1,8 @@
-package com.yaeok.hello;
+package com.yaeok.hello.GetMessage;
 
-public class HelloModel {
+public class GetMessageModel {
   private String message;
-  private String name;
+  private String username;
   private String email;
 
   public String getMessage() {
@@ -13,12 +13,12 @@ public class HelloModel {
     this.message = message;
   }
 
-  public String getName() {
-    return name;
+  public String getUsername() {
+    return username;
   }
 
-  void setName(String name) {
-    this.name = name;
+  void setUsername(String username) {
+    this.username = username;
   }
 
   public String getEmail() {
